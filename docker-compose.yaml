@@ -1,0 +1,12 @@
+version: "3"
+services:
+  PyWithJupyter:
+    image: tensorflow/tensorflow:latest-jupyter
+    container_name: "TensorFlow2.0Practical"
+    ports:
+      - "8888:8888"
+    volumes:
+      - C:\data\learning\udemy\TensorFlow2.0Practical:/tf 
+    environment:
+      TEST_VARIABLE: "TEST VALUE"
+
