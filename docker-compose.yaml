@@ -5,6 +5,7 @@ services:
     container_name: "TensorFlow2.0Practical"
     ports:
       - "8888:8888"
+    restart: always
     volumes:
       - C:\data\learning\udemy\TensorFlow2.0Practical:/tf 
     environment:
