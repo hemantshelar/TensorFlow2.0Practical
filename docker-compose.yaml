@@ -10,4 +10,5 @@ services:
       - C:\data\learning\udemy\TensorFlow2.0Practical:/tf 
     environment:
       TEST_VARIABLE: "TEST VALUE"
+      TF_ENABLE_ONEDNN_OPTS: 0
 
