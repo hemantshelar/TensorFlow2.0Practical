@@ -10,3 +10,8 @@ Download latest [tensorflow image](https://www.tensorflow.org/install/docker)
 
 
 Simple example to implement [docker compose](https://www.youtube.com/watch?v=DM65_JyGxCo&ab_channel=NetworkChuck)
+
+
+
+- [X] Test
+- [ ] One
